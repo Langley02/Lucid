@@ -39,7 +39,17 @@
   height: 640px;
   background: url("../images/background_photo.png") no-repeat center center fixed;
   background-size: cover;
-  position: absolute; }
+  position: absolute;
+  z-index: 1; }
+
+.background_photo div {
+  width: 100%;
+  height: 640px;
+  background: url("../images/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  opacity: 0.1; }
 
 .collapse:not(.show) {
   display: block; }
