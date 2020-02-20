@@ -1,0 +1,76 @@
+@import "colors";
+@import "fonts";
+
+.two {
+  border-bottom: solid 1px #ededed;
+
+  .h6 {
+    margin-top: 65px;
+    font-size: 14px;
+    font-family: "Source Sans Pro Bolt";
+    color: $blue;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: "Source Sans Pro Semibold";
+    color: $text-black;
+  }
+
+  h3:after {
+    display: block;
+    position: relative;
+    left: 48.25%;
+    top: 30px;
+    width: 42px;
+    height: 2px;
+    background-color: $blue;
+    content: ""
+  }
+
+  h3:before {
+    z-index: 2;
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 75px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    content: ""
+  }
+
+  .col-xl-3 {
+    margin-top: 100px;
+
+    span {
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+      border: solid 1px #e7e7e7;
+
+      i {
+        color: $blue;
+        font-size: 36px;
+        margin-top: 25px;
+      }
+    }
+
+    h2 {
+      font-family: "Source Sans Pro Regular";
+      font-size: 24px;
+      color: $text-black;
+      margin-top: 35px;
+    }
+
+    p {
+      font-family: "Source Sans Pro Regular";
+      font-size: 18px;
+      color: $text-grey;
+      width: 235px;
+    }
+  }
+}

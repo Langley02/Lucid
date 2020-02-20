@@ -150,4 +150,89 @@ header .nav-link:focus:before {
     height: 50px;
     margin-right: 20px; }
 
+@font-face {
+  font-family: 'Source Sans Pro Semibold';
+  src: url("../fonts/SourceSansPro-Semibold.eot");
+  src: url("../fonts/SourceSansPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Semibold.woff2") format("woff2"), url("../fonts/SourceSansPro-Semibold.woff") format("woff"), url("../fonts/SourceSansPro-Semibold.ttf") format("truetype"), url("../fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Sans Pro Italic';
+  src: url("../fonts/SourceSansPro-It.eot");
+  src: url("../fonts/SourceSansPro-It.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-It.woff2") format("woff2"), url("../fonts/SourceSansPro-It.woff") format("woff"), url("../fonts/SourceSansPro-It.ttf") format("truetype"), url("../fonts/SourceSansPro-It.svg#SourceSansPro-It") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  src: url("../fonts/SourceSansPro-Regular.eot");
+  src: url("../fonts/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Regular.woff2") format("woff2"), url("../fonts/SourceSansPro-Regular.woff") format("woff"), url("../fonts/SourceSansPro-Regular.ttf") format("truetype"), url("../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Bold.eot");
+  src: url("../fonts/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Bold.woff2") format("woff2"), url("../fonts/Quicksand-Bold.woff") format("woff"), url("../fonts/Quicksand-Bold.ttf") format("truetype"), url("../fonts/Quicksand-Bold.svg#Quicksand-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Sans Pro Bolt';
+  src: url("../fonts/SourceSansPro-Bold.eot");
+  src: url("../fonts/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Bold.woff2") format("woff2"), url("../fonts/SourceSansPro-Bold.woff") format("woff"), url("../fonts/SourceSansPro-Bold.ttf") format("truetype"), url("../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+.two {
+  border-bottom: solid 1px #ededed; }
+  .two .h6 {
+    margin-top: 65px;
+    font-size: 14px;
+    font-family: "Source Sans Pro Bolt";
+    color: #008ed6;
+    text-transform: uppercase; }
+  .two h3 {
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: "Source Sans Pro Semibold";
+    color: #1a1a1a; }
+  .two h3:after {
+    display: block;
+    position: relative;
+    left: 48.25%;
+    top: 30px;
+    width: 42px;
+    height: 2px;
+    background-color: #008ed6;
+    content: ""; }
+  .two h3:before {
+    z-index: 2;
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 75px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    content: ""; }
+  .two .col-xl-3 {
+    margin-top: 100px; }
+    .two .col-xl-3 span {
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+      border: solid 1px #e7e7e7; }
+      .two .col-xl-3 span i {
+        color: #008ed6;
+        font-size: 36px;
+        margin-top: 25px; }
+    .two .col-xl-3 h2 {
+      font-family: "Source Sans Pro Regular";
+      font-size: 24px;
+      color: #1a1a1a;
+      margin-top: 35px; }
+    .two .col-xl-3 p {
+      font-family: "Source Sans Pro Regular";
+      font-size: 18px;
+      color: #999999;
+      width: 235px; }
+
 /*# sourceMappingURL=main_style.css.map */
