@@ -11,29 +11,109 @@ header {
   }
 
   .navbar {
-    padding-top: 20px;
+    padding: 20px 0 0 0;
   }
 
-  .navbar-light .navbar-brand {
+  .navbar-dark .navbar-brand {
     font-size: 24px;
     font-family: "Quicksand";
     color: $text-white;
   }
 
-  .navbar-light .navbar-brand:hover {
+  .navbar-dark .navbar-brand:hover {
     color: $text-white;
   }
 
-  .navbar-light .navbar-nav .nav-link {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  .nav-item {
+    padding-left: 24px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
     font-size: 16px;
     font-family: "Source Sans Pro Semibold";
     color: $text-white;
   }
 
-  .navbar-light .navbar-nav .nav-link:hover {
+  .navbar-dark .navbar-nav .nav-link:hover {
     color: $text-white;
-    border-bottom: solid 2px $blue;
-    width: 70%;
   }
 
+  .nav-link {
+    position: relative;
+    cursor: pointer;
+    line-height: 3; /*задаём высоту строки*/
+
+  }
+
+  .nav-link:after {
+    display: block;
+    position: relative;
+    left: 50%;
+    width: 0; /*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: black; /*задаём цвет линии*/
+    content: "";
+  }
+
+  .nav-link:hover:after,
+  .nav-link:focus:after {
+    width: 2px; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    content: "";
+  }
+
+  .nav-link:before {
+    display: block;
+    position: absolute;
+    top: 48px;
+    width: 0; /*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: $blue; /*задаём цвет линии*/
+    content: "";
+  }
+
+  .nav-link:hover:before,
+  .nav-link:focus:before {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    content: "";
+  }
+}
+
+.one {
+  margin-top: 36px;
+  h1 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: "Source Sans Pro Semibold";
+    color: $text-white;
+    line-height: 48px;
+  }
+
+  .h5 {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Source Sans Pro Regular";
+    color: $text-grey;
+    line-height: 26px;
+  }
+
+  .h6 {
+    font-size: 14px;
+    font-family: "Source Sans Pro Bolt";
+    color: $blue;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  button{
+    margin-top: 60px;
+    font-size: 14px;
+    font-family: "Source Sans Pro Bolt";
+    color: $text-white;
+    width: 160px;
+    height: 50px;
+    margin-right: 20px;
+  }
 }

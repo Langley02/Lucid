@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Source Sans Pro Semibold';
   src: url("../fonts/SourceSansPro-Semibold.eot");
@@ -23,6 +24,12 @@
   font-weight: bold;
   font-style: normal; }
 @font-face {
+  font-family: 'Source Sans Pro Bolt';
+  src: url("../fonts/SourceSansPro-Bold.eot");
+  src: url("../fonts/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Bold.woff2") format("woff2"), url("../fonts/SourceSansPro-Bold.woff") format("woff"), url("../fonts/SourceSansPro-Bold.ttf") format("truetype"), url("../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
   font-family: 'Source Sans Pro Semibold';
   src: url("../fonts/SourceSansPro-Semibold.eot");
   src: url("../fonts/SourceSansPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Semibold.woff2") format("woff2"), url("../fonts/SourceSansPro-Semibold.woff") format("woff"), url("../fonts/SourceSansPro-Semibold.ttf") format("truetype"), url("../fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold") format("svg");
@@ -44,6 +51,12 @@
   font-family: 'Quicksand';
   src: url("../fonts/Quicksand-Bold.eot");
   src: url("../fonts/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Bold.woff2") format("woff2"), url("../fonts/Quicksand-Bold.woff") format("woff"), url("../fonts/Quicksand-Bold.ttf") format("truetype"), url("../fonts/Quicksand-Bold.svg#Quicksand-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Sans Pro Bolt';
+  src: url("../fonts/SourceSansPro-Bold.eot");
+  src: url("../fonts/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Bold.woff2") format("woff2"), url("../fonts/SourceSansPro-Bold.woff") format("woff"), url("../fonts/SourceSansPro-Bold.ttf") format("truetype"), url("../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold") format("svg");
   font-weight: bold;
   font-style: normal; }
 header .background {
@@ -53,20 +66,88 @@ header .background {
   background-size: cover;
   position: absolute; }
 header .navbar {
-  padding-top: 20px; }
-header .navbar-light .navbar-brand {
+  padding: 20px 0 0 0; }
+header .navbar-dark .navbar-brand {
   font-size: 24px;
   font-family: "Quicksand";
   color: #ffffff; }
-header .navbar-light .navbar-brand:hover {
+header .navbar-dark .navbar-brand:hover {
   color: #ffffff; }
-header .navbar-light .navbar-nav .nav-link {
+header .navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0; }
+header .nav-item {
+  padding-left: 24px; }
+header .navbar-dark .navbar-nav .nav-link {
   font-size: 16px;
   font-family: "Source Sans Pro Semibold";
   color: #ffffff; }
-header .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffffff;
-  border-bottom: solid 2px #008ed6;
-  width: 70%; }
+header .navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff; }
+header .nav-link {
+  position: relative;
+  cursor: pointer;
+  line-height: 3;
+  /*задаём высоту строки*/ }
+header .nav-link:after {
+  display: block;
+  position: relative;
+  left: 50%;
+  width: 0;
+  /*задаём длинну линии до наведения курсора*/
+  height: 2px;
+  /*задаём ширину линии*/
+  background-color: black;
+  /*задаём цвет линии*/
+  content: ""; }
+header .nav-link:hover:after,
+header .nav-link:focus:after {
+  width: 2px;
+  /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+  content: ""; }
+header .nav-link:before {
+  display: block;
+  position: absolute;
+  top: 48px;
+  width: 0;
+  /*задаём длинну линии до наведения курсора*/
+  height: 2px;
+  /*задаём ширину линии*/
+  background-color: #008ed6;
+  /*задаём цвет линии*/
+  content: ""; }
+header .nav-link:hover:before,
+header .nav-link:focus:before {
+  width: 100%;
+  /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+  content: ""; }
+
+.one {
+  margin-top: 36px; }
+  .one h1 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: "Source Sans Pro Semibold";
+    color: #ffffff;
+    line-height: 48px; }
+  .one .h5 {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Source Sans Pro Regular";
+    color: #999999;
+    line-height: 26px; }
+  .one .h6 {
+    font-size: 14px;
+    font-family: "Source Sans Pro Bolt";
+    color: #008ed6;
+    text-transform: uppercase;
+    margin-top: 40px; }
+  .one button {
+    margin-top: 60px;
+    font-size: 14px;
+    font-family: "Source Sans Pro Bolt";
+    color: #ffffff;
+    width: 160px;
+    height: 50px;
+    margin-right: 20px; }
 
 /*# sourceMappingURL=main_style.css.map */

@@ -45,3 +45,15 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Source Sans Pro Bolt';
+  src: url('../fonts/SourceSansPro-Bold.eot');
+  src: url('../fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SourceSansPro-Bold.woff2') format('woff2'),
+  url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+  url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
+  url('../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
