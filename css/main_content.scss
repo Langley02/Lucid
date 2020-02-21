@@ -523,6 +523,7 @@
   .contact {
     position: relative;
     top: 64px;
+    z-index: 2;
 
     .bg_form {
       background-color: black;
@@ -556,4 +557,8 @@
       }
     }
   }
+}
+
+.nine{
+  height: 370px;
 }

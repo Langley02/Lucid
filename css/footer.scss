@@ -1,0 +1,19 @@
+@import "colors";
+@import "fonts";
+
+footer {
+  background-color: black;
+  padding: 35px 0;
+
+  p{
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Source Sans Pro Semibold";
+    color: #444348;
+  }
+  a {
+    margin: 0 16px;
+    color: #444348;
+    font-size: 20px;
+  }
+}
