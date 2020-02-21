@@ -529,4 +529,72 @@ header .nav-link:focus:before {
   background-color: #008ed6;
   border: none; }
 
+.eight {
+  background-color: #ededed; }
+  .eight .h6 {
+    font-family: "Source Sans Pro Bolt";
+    font-size: 14px;
+    color: #008ed6;
+    text-transform: uppercase;
+    margin-top: 63px; }
+  .eight h2 {
+    font-family: "Source Sans Pro Semibold";
+    font-size: 36px;
+    color: #1a1a1a; }
+  .eight h2:after {
+    display: block;
+    position: relative;
+    width: 42px;
+    top: 23px;
+    left: 540px;
+    height: 2px;
+    background-color: #008ed6;
+    content: ""; }
+  .eight h2:before {
+    z-index: 2;
+    display: block;
+    position: relative;
+    top: 67px;
+    left: 560px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    content: ""; }
+  .eight i {
+    margin-top: 95px;
+    font-size: 35px;
+    color: #008ed6; }
+  .eight .h5 {
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: "Source Sans Pro Regular";
+    color: #999999;
+    line-height: 26px; }
+  .eight .contact {
+    position: relative;
+    top: 64px; }
+    .eight .contact .bg_form {
+      background-color: black;
+      padding-top: 60px;
+      padding-bottom: 40px; }
+      .eight .contact .bg_form button {
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+        font-family: "Source Sans Pro Bolt";
+        color: #ffffff;
+        background-color: #008ed6; }
+      .eight .contact .bg_form .form-group {
+        margin-bottom: 20px; }
+        .eight .contact .bg_form .form-group input {
+          height: 50px;
+          background-color: black;
+          border-color: #444348; }
+        .eight .contact .bg_form .form-group textarea {
+          resize: none;
+          height: 188px;
+          background-color: black;
+          border-color: #444348; }
+
 /*# sourceMappingURL=main_style.css.map */
