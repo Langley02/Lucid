@@ -384,7 +384,7 @@ header .nav-link:focus:before {
     z-index: 2;
     display: block;
     position: relative;
-    top: 68px;
+    top: 69px;
     left: 560px;
     width: 2px;
     height: 2px;
@@ -470,11 +470,63 @@ header .nav-link:focus:before {
   z-index: 2;
   display: block;
   position: relative;
-  top: 70px;
+  top: 68px;
   left: 560px;
   width: 2px;
   height: 2px;
   background-color: white;
   content: ""; }
+.seven .card-deck {
+  margin: 101px 0 60px; }
+  .seven .card-deck .card-header {
+    background-color: rgba(0, 0, 0, 0); }
+  .seven .card-deck h4 {
+    font-size: 24px;
+    font-family: "Source Sans Pro Bolt";
+    text-transform: uppercase; }
+  .seven .card-deck .price {
+    border-bottom: solid 1px #e0e0e0;
+    padding-top: 20px; }
+  .seven .card-deck .card-title {
+    font-size: 60px;
+    font-family: "Source Sans Pro Semibold";
+    margin-bottom: 0; }
+  .seven .card-deck .card-title:before {
+    content: "$";
+    font-size: 28px;
+    position: relative;
+    bottom: 20px; }
+  .seven .card-deck p {
+    font-size: 18px;
+    font-family: "Source Sans Pro Regular";
+    color: #999999; }
+  .seven .card-deck .card-body {
+    padding: 0 0 28px; }
+    .seven .card-deck .card-body ul {
+      margin: 20px; }
+      .seven .card-deck .card-body ul li {
+        font-size: 18px;
+        font-family: "Source Sans Pro Regular";
+        color: #999999; }
+        .seven .card-deck .card-body ul li span {
+          color: #008ed6; }
+    .seven .card-deck .card-body button {
+      width: 160px;
+      height: 50px;
+      font-size: 14px;
+      font-family: "Source Sans Pro Bolt"; }
+    .seven .card-deck .card-body .btn-outline-primary {
+      border-color: #e0e0e0; }
+.seven .card:hover .price {
+  background-color: #008ed6;
+  color: #ffffff; }
+.seven .card:hover .card-header {
+  color: #008ed6; }
+.seven .card:hover p {
+  color: #ffffff; }
+.seven .card:hover button {
+  color: #ffffff;
+  background-color: #008ed6;
+  border: none; }
 
 /*# sourceMappingURL=main_style.css.map */

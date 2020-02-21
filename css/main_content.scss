@@ -247,7 +247,7 @@
     z-index: 2;
     display: block;
     position: relative;
-    top: 68px;
+    top: 69px;
     left: 560px;
     width: 2px;
     height: 2px;
@@ -366,11 +366,100 @@
     z-index: 2;
     display: block;
     position: relative;
-    top: 70px;
+    top: 68px;
     left: 560px;
     width: 2px;
     height: 2px;
     background-color: white;
     content: ""
+  }
+
+  .card-deck {
+    margin: 101px 0 60px;
+
+    .card-header {
+      background-color: rgba(0, 0, 0, .0);
+    }
+
+    h4 {
+      font-size: 24px;
+      font-family: "Source Sans Pro Bolt";
+      text-transform: uppercase;
+    }
+
+    .price {
+      border-bottom: solid 1px #e0e0e0;
+      padding-top: 20px;
+    }
+
+    .card-title {
+      font-size: 60px;
+      font-family: "Source Sans Pro Semibold";
+      margin-bottom: 0;
+    }
+
+    .card-title:before {
+      content: "$";
+      font-size: 28px;
+      position: relative;
+      bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      font-family: "Source Sans Pro Regular";
+      color: $text-grey;
+    }
+
+    .card-body {
+      padding: 0 0 28px;
+
+      ul {
+        margin: 20px;
+
+        li {
+          font-size: 18px;
+          font-family: "Source Sans Pro Regular";
+          color: $text-grey;
+
+          span {
+            color: $blue;
+          }
+        }
+      }
+
+      button {
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+        font-family: "Source Sans Pro Bolt";
+      }
+
+      .btn-outline-primary {
+        border-color: #e0e0e0;
+      }
+    }
+
+  }
+
+  .card:hover {
+    .price {
+      background-color: $blue;
+      color: $text-white;
+    }
+
+    .card-header {
+      color: $blue;
+    }
+
+    p {
+      color: $text-white;
+    }
+
+    button {
+      color: $text-white;
+      background-color: $blue;
+      border: none;
+    }
   }
 }
