@@ -1,0 +1,109 @@
+@import "fonts";
+@import "header";
+@import "colors";
+@import "main_content";
+@import "footer";
+
+@media screen and (max-width: 1024px) {
+  .one {
+    img {
+      margin-top: 90px;
+    }
+  }
+  .two {
+    h3:after {
+      display: block;
+      position: relative;
+      left: 48%;
+      top: 30px;
+      width: 42px;
+      height: 2px;
+      background-color: $blue;
+      content: ""
+    }
+
+    h3:before {
+      z-index: 2;
+      display: block;
+      position: relative;
+      left: 50%;
+      top: 75px;
+      width: 2px;
+      height: 2px;
+      background-color: white;
+      content: ""
+    }
+  }
+  .five {
+    h2:after {
+      display: block;
+      position: relative;
+      left: 47.5%;
+      top: 30px;
+      width: 42px;
+      height: 2px;
+      background-color: $blue;
+      content: ""
+    }
+
+    h2:before {
+      z-index: 2;
+      display: block;
+      position: relative;
+      left: 49.75%;
+      top: 75px;
+      width: 2px;
+      height: 2px;
+      background-color: black;
+      content: ""
+    }
+  }
+  .seven {
+    h2:after {
+      display: block;
+      position: relative;
+      left: 47.5%;
+      top: 30px;
+      width: 42px;
+      height: 2px;
+      background-color: $blue;
+      content: ""
+    }
+
+    h2:before {
+      z-index: 2;
+      display: block;
+      position: relative;
+      left: 49.65%;
+      top: 75px;
+      width: 2px;
+      height: 2px;
+      background-color: white;
+      content: ""
+    }
+  }
+  .eight {
+    h2:after {
+      display: block;
+      position: relative;
+      left: 47.5%;
+      top: 30px;
+      width: 42px;
+      height: 2px;
+      background-color: $blue;
+      content: ""
+    }
+
+    h2:before {
+      z-index: 2;
+      display: block;
+      position: relative;
+      left: 49.75%;
+      top: 75px;
+      width: 2px;
+      height: 2px;
+      background-color: #ededed;
+      content: ""
+    }
+  }
+}

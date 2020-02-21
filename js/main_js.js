@@ -8,16 +8,16 @@ $(document).ready(function () {
 
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
 
-            1000: {
+            769: {
                 items: 2
             }
         }
     });
 
-    $("a.scrollto").click(function() {
+    $("a.nav-link").click(function() {
         var elementClick = $(this).attr("href")
         var destination = $(elementClick).offset().top;
         jQuery("html:not(:animated),body:not(:animated)").animate({
