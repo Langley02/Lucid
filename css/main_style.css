@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url(bootstrap.min.css);
+@import url(../owlcarousel2/assets/owl.carousel.min.css);
+@import url(../owlcarousel2/assets/owl.theme.default.min.css);
 @font-face {
   font-family: 'Source Sans Pro Semibold';
   src: url("../fonts/SourceSansPro-Semibold.eot");
@@ -133,34 +136,35 @@ header .nav-link:focus:before {
   /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
   content: ""; }
 
-.one {
+.home {
   margin-top: 36px; }
-  .one h1 {
+  .home h1 {
     margin-top: 20px;
     font-size: 48px;
     font-family: "Source Sans Pro Semibold";
     color: #ffffff;
     line-height: 48px; }
-  .one .h5 {
+  .home .description {
     margin-top: 30px;
     font-size: 18px;
     font-family: "Source Sans Pro Regular";
     color: #999999;
     line-height: 26px; }
-  .one .h6 {
+  .home .subtitle {
     font-size: 14px;
     font-family: "Source Sans Pro Bolt";
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 40px; }
-  .one button {
+  .home button {
     margin-top: 60px;
     font-size: 14px;
     font-family: "Source Sans Pro Bolt";
     color: #ffffff;
     width: 160px;
     height: 50px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    border-color: #6c757d; }
 
 @font-face {
   font-family: 'Source Sans Pro Semibold';
@@ -198,21 +202,21 @@ header .nav-link:focus:before {
   src: url("../fonts/SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Light.woff2") format("woff2"), url("../fonts/SourceSansPro-Light.woff") format("woff"), url("../fonts/SourceSansPro-Light.ttf") format("truetype"), url("../fonts/SourceSansPro-Light.svg#SourceSansPro-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
-.two {
+.features {
   border-bottom: solid 1px #ededed;
   padding-bottom: 76px; }
-  .two .h6 {
+  .features .subtitle {
     margin-top: 65px;
     font-size: 14px;
     font-family: "Source Sans Pro Bolt";
     color: #008ed6;
     text-transform: uppercase; }
-  .two h3 {
+  .features h3 {
     margin-top: 10px;
     font-size: 36px;
     font-family: "Source Sans Pro Semibold";
     color: #1a1a1a; }
-  .two h3:after {
+  .features h3:after {
     display: block;
     position: relative;
     left: 48.25%;
@@ -221,53 +225,53 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .two h3:before {
+  .features h3:before {
     z-index: 2;
     display: block;
     position: relative;
     left: 50%;
     top: 75px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: white;
     content: ""; }
-  .two .col-lg-3 {
+  .features .list_features {
     margin-top: 100px; }
-    .two .col-lg-3 span {
+    .features .list_features span {
       display: inline-block;
       width: 90px;
       height: 90px;
       border-radius: 100%;
       border: solid 1px #e7e7e7; }
-      .two .col-lg-3 span i {
+      .features .list_features span i {
         color: #008ed6;
         font-size: 36px;
         margin-top: 25px; }
-    .two .col-lg-3 h2 {
+    .features .list_features h2 {
       font-family: "Source Sans Pro Regular";
       font-size: 24px;
       color: #1a1a1a;
       margin-top: 35px; }
-    .two .col-lg-3 .h5 {
+    .features .list_features .description {
       font-family: "Source Sans Pro Regular";
       font-size: 18px;
       color: #999999;
       width: 250px; }
 
-.three {
+.about {
   padding-top: 66px;
   padding-bottom: 19px; }
-  .three .h6 {
+  .about .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 53px; }
-  .three h3 {
+  .about h3 {
     font-family: "Source Sans Pro Bolt";
     font-size: 36px;
     color: #1a1a1a; }
-  .three h3:after {
+  .about h3:after {
     display: block;
     position: relative;
     width: 42px;
@@ -275,62 +279,62 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .three h3:before {
+  .about h3:before {
     z-index: 2;
     display: block;
     position: relative;
     top: 69px;
     left: 20px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: white;
     content: ""; }
-  .three .h5 {
+  .about .description {
     font-family: "Source Sans Pro Regular";
     font-size: 18px;
     color: #999999;
     margin-top: 50px;
     margin-bottom: 35px; }
-  .three ul {
+  .about ul {
     list-style: none;
     padding-left: 38px;
     font-family: "Source Sans Pro Semibold";
     font-size: 18px;
     color: #1a1a1a; }
-    .three ul li:after {
+    .about ul li:after {
       position: absolute;
       font-weight: 900;
       font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Free'; }
-    .three ul li:first-of-type:after {
+    .about ul li:first-of-type:after {
       content: "\f091";
       color: #008ed6;
       left: 15px; }
-    .three ul li:nth-of-type(2):after {
+    .about ul li:nth-of-type(2):after {
       content: "\f545";
       color: #008ed6;
       left: 15px; }
-    .three ul li:nth-of-type(3):after {
+    .about ul li:nth-of-type(3):after {
       content: "\f0e7";
       color: #008ed6;
       left: 15px; }
-    .three ul li:nth-of-type(4):after {
+    .about ul li:nth-of-type(4):after {
       content: "\f3fd";
       color: #008ed6;
       left: 15px; }
 
-.four {
+.about_second {
   background: #f2f2f2; }
-  .four .h6 {
+  .about_second .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 115px; }
-  .four h3 {
+  .about_second h3 {
     font-family: "Source Sans Pro Bolt";
     font-size: 36px;
     color: #1a1a1a; }
-  .four h3:after {
+  .about_second h3:after {
     display: block;
     position: relative;
     width: 42px;
@@ -338,40 +342,40 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .four h3:before {
+  .about_second h3:before {
     z-index: 2;
     display: block;
     position: relative;
     top: 69px;
     left: 20px;
     width: 2px;
-    height: 2px;
-    background-color: white;
+    height: 3px;
+    background-color: #f2f2f2;
     content: ""; }
-  .four .h5 {
+  .about_second .description {
     font-family: "Source Sans Pro Regular";
     font-size: 18px;
     color: #999999;
     margin-top: 50px;
     margin-bottom: 35px; }
 
-.five {
+.testimonials {
   background: url("../images/background_carousel.png") no-repeat center center fixed;
   background-size: cover;
   position: relative;
   width: 100%;
   height: 640px; }
-  .five .h6 {
+  .testimonials .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 63px; }
-  .five h2 {
+  .testimonials h2 {
     font-family: "Source Sans Pro Semibold";
     font-size: 36px;
     color: #ffffff; }
-  .five h2:after {
+  .testimonials h2:after {
     display: block;
     position: relative;
     width: 42px;
@@ -380,84 +384,85 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .five h2:before {
+  .testimonials h2:before {
     z-index: 2;
     display: block;
     position: relative;
     top: 69px;
     left: 560px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: black;
     content: ""; }
-  .five .owl-carousel {
+  .testimonials .owl-carousel {
     margin-top: 100px; }
-    .five .owl-carousel img {
+    .testimonials .owl-carousel img {
       margin-top: 28px;
       width: 59px;
       height: 59px;
       border-radius: 50%;
       overflow: hidden; }
-    .five .owl-carousel h3 {
+    .testimonials .owl-carousel h3 {
       max-width: 570px;
       font-family: "Source Sans Pro Italic";
       font-size: 24px;
       color: #ffffff; }
-    .five .owl-carousel .h6 {
+    .testimonials .owl-carousel .subtitle {
       font-family: "Source Sans Pro Regular";
       font-size: 16px;
       color: #ffffff;
       text-transform: none;
       margin-top: 36px; }
-    .five .owl-carousel .h5 {
+    .testimonials .owl-carousel .description {
       font-family: "Source Sans Pro Bolt";
       font-size: 14px;
       text-transform: uppercase;
       color: #ffffff; }
-  .five .owl-theme .owl-dots .owl-dot span {
+  .testimonials .owl-theme .owl-dots .owl-dot span {
     background: 0;
     border: solid 1px grey;
     border-radius: 50%;
     height: 8px;
     width: 8px;
     margin: 11px; }
-  .five .owl-theme .owl-dots .owl-dot.active span, .five .owl-theme .owl-dots .owl-dot:hover span {
+  .testimonials .owl-theme .owl-dots .owl-dot.active span, .testimonials .owl-theme .owl-dots .owl-dot:hover span {
     background: white;
     height: 14px;
     width: 14px;
     position: relative;
     top: 3px; }
-  .five .owl-theme .owl-nav {
+  .testimonials .owl-theme .owl-nav {
     margin-top: 100px; }
 
-.six {
+.get_theme {
   background: black;
   padding: 60px 0; }
-  .six h3 {
+  .get_theme h3 {
     font-family: "Source Sans Pro Semibold";
     font-size: 36px;
     color: #ffffff; }
-  .six span {
+  .get_theme span {
     font-family: "Source Sans Pro Light";
     font-size: 36px;
     color: #999999; }
-  .six button {
+  .get_theme button {
     font-size: 14px;
     width: 160px;
     height: 50px;
-    color: #ffffff; }
+    color: #ffffff;
+    border-color: #6c757d; }
 
-.seven .h6 {
+.pricing .subtitle {
   font-family: "Source Sans Pro Bolt";
   font-size: 14px;
   color: #008ed6;
   text-transform: uppercase;
   margin-top: 63px; }
-.seven h2 {
+.pricing h2 {
   font-family: "Source Sans Pro Semibold";
   font-size: 36px;
   color: #1a1a1a; }
-.seven h2:after {
+.pricing h2:after {
   display: block;
   position: relative;
   width: 42px;
@@ -466,7 +471,7 @@ header .nav-link:focus:before {
   height: 2px;
   background-color: #008ed6;
   content: ""; }
-.seven h2:before {
+.pricing h2:before {
   z-index: 2;
   display: block;
   position: relative;
@@ -476,72 +481,72 @@ header .nav-link:focus:before {
   height: 4px;
   background-color: white;
   content: ""; }
-.seven .card-deck {
+.pricing .card-deck {
   margin: 101px 0 60px; }
-  .seven .card-deck .card-header {
+  .pricing .card-deck .card-header {
     background-color: rgba(0, 0, 0, 0); }
-  .seven .card-deck h4 {
+  .pricing .card-deck h4 {
     font-size: 24px;
     font-family: "Source Sans Pro Bolt";
     text-transform: uppercase; }
-  .seven .card-deck .price {
+  .pricing .card-deck .price {
     border-bottom: solid 1px #e0e0e0;
     padding-top: 20px; }
-  .seven .card-deck .card-title {
+  .pricing .card-deck .card-title {
     font-size: 60px;
     font-family: "Source Sans Pro Semibold";
     margin-bottom: 0; }
-  .seven .card-deck .card-title:before {
+  .pricing .card-deck .card-title:before {
     content: "$";
     font-size: 28px;
     position: relative;
     bottom: 20px; }
-  .seven .card-deck p {
+  .pricing .card-deck p {
     font-size: 18px;
     font-family: "Source Sans Pro Regular";
     color: #999999; }
-  .seven .card-deck .card-body {
+  .pricing .card-deck .card-body {
     padding: 0 0 28px; }
-    .seven .card-deck .card-body ul {
+    .pricing .card-deck .card-body ul {
       margin: 20px; }
-      .seven .card-deck .card-body ul li {
+      .pricing .card-deck .card-body ul li {
         font-size: 18px;
         font-family: "Source Sans Pro Regular";
         color: #999999; }
-        .seven .card-deck .card-body ul li span {
+        .pricing .card-deck .card-body ul li span {
           color: #008ed6; }
-    .seven .card-deck .card-body button {
+    .pricing .card-deck .card-body button {
       width: 160px;
       height: 50px;
       font-size: 14px;
       font-family: "Source Sans Pro Bolt"; }
-    .seven .card-deck .card-body .btn-outline-primary {
+    .pricing .card-deck .card-body .btn-outline-primary {
       border-color: #e0e0e0; }
-.seven .card:hover .price {
+.pricing .card:hover .price {
   background-color: #008ed6;
   color: #ffffff; }
-.seven .card:hover .card-header {
+.pricing .card:hover .card-header {
   color: #008ed6; }
-.seven .card:hover p {
+.pricing .card:hover p {
   color: #ffffff; }
-.seven .card:hover button {
+.pricing .card:hover button {
   color: #ffffff;
   background-color: #008ed6;
   border: none; }
 
-.eight {
+.contact_us {
   background-color: #ededed; }
-  .eight .h6 {
+  .contact_us .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 63px; }
-  .eight h2 {
+  .contact_us h2 {
     font-family: "Source Sans Pro Semibold";
     font-size: 36px;
     color: #1a1a1a; }
-  .eight h2:after {
+  .contact_us h2:after {
     display: block;
     position: relative;
     width: 42px;
@@ -550,7 +555,7 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .eight h2:before {
+  .contact_us h2:before {
     z-index: 2;
     display: block;
     position: relative;
@@ -560,45 +565,45 @@ header .nav-link:focus:before {
     height: 4px;
     background-color: #ededed;
     content: ""; }
-  .eight i {
+  .contact_us i {
     margin-top: 95px;
     font-size: 35px;
     color: #008ed6; }
-  .eight .h5 {
+  .contact_us .description {
     margin-top: 30px;
     margin-bottom: 6px;
     font-size: 18px;
     font-family: "Source Sans Pro Regular";
     color: #999999;
     line-height: 26px; }
-  .eight .contact {
+  .contact_us .contact {
     position: relative;
     top: 64px;
     z-index: 2; }
-    .eight .contact .bg_form {
+    .contact_us .contact .bg_form {
       background-color: black;
       padding-top: 60px;
       padding-bottom: 40px; }
-      .eight .contact .bg_form button {
+      .contact_us .contact .bg_form button {
         width: 160px;
         height: 50px;
         font-size: 14px;
         font-family: "Source Sans Pro Bolt";
         color: #ffffff;
         background-color: #008ed6; }
-      .eight .contact .bg_form .form-group {
+      .contact_us .contact .bg_form .form-group {
         margin-bottom: 20px; }
-        .eight .contact .bg_form .form-group input {
+        .contact_us .contact .bg_form .form-group input {
           height: 50px;
           background-color: black;
           border-color: #444348; }
-        .eight .contact .bg_form .form-group textarea {
+        .contact_us .contact .bg_form .form-group textarea {
           resize: none;
           height: 188px;
           background-color: black;
           border-color: #444348; }
 
-.nine {
+.map {
   height: 370px; }
 
 @font-face {
@@ -784,34 +789,35 @@ header .nav-link:focus:before {
   /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
   content: ""; }
 
-.one {
+.home {
   margin-top: 36px; }
-  .one h1 {
+  .home h1 {
     margin-top: 20px;
     font-size: 48px;
     font-family: "Source Sans Pro Semibold";
     color: #ffffff;
     line-height: 48px; }
-  .one .h5 {
+  .home .description {
     margin-top: 30px;
     font-size: 18px;
     font-family: "Source Sans Pro Regular";
     color: #999999;
     line-height: 26px; }
-  .one .h6 {
+  .home .subtitle {
     font-size: 14px;
     font-family: "Source Sans Pro Bolt";
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 40px; }
-  .one button {
+  .home button {
     margin-top: 60px;
     font-size: 14px;
     font-family: "Source Sans Pro Bolt";
     color: #ffffff;
     width: 160px;
     height: 50px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    border-color: #6c757d; }
 
 @font-face {
   font-family: 'Source Sans Pro Semibold';
@@ -849,21 +855,21 @@ header .nav-link:focus:before {
   src: url("../fonts/SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro-Light.woff2") format("woff2"), url("../fonts/SourceSansPro-Light.woff") format("woff"), url("../fonts/SourceSansPro-Light.ttf") format("truetype"), url("../fonts/SourceSansPro-Light.svg#SourceSansPro-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
-.two {
+.features {
   border-bottom: solid 1px #ededed;
   padding-bottom: 76px; }
-  .two .h6 {
+  .features .subtitle {
     margin-top: 65px;
     font-size: 14px;
     font-family: "Source Sans Pro Bolt";
     color: #008ed6;
     text-transform: uppercase; }
-  .two h3 {
+  .features h3 {
     margin-top: 10px;
     font-size: 36px;
     font-family: "Source Sans Pro Semibold";
     color: #1a1a1a; }
-  .two h3:after {
+  .features h3:after {
     display: block;
     position: relative;
     left: 48.25%;
@@ -872,53 +878,53 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .two h3:before {
+  .features h3:before {
     z-index: 2;
     display: block;
     position: relative;
     left: 50%;
     top: 75px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: white;
     content: ""; }
-  .two .col-lg-3 {
+  .features .list_features {
     margin-top: 100px; }
-    .two .col-lg-3 span {
+    .features .list_features span {
       display: inline-block;
       width: 90px;
       height: 90px;
       border-radius: 100%;
       border: solid 1px #e7e7e7; }
-      .two .col-lg-3 span i {
+      .features .list_features span i {
         color: #008ed6;
         font-size: 36px;
         margin-top: 25px; }
-    .two .col-lg-3 h2 {
+    .features .list_features h2 {
       font-family: "Source Sans Pro Regular";
       font-size: 24px;
       color: #1a1a1a;
       margin-top: 35px; }
-    .two .col-lg-3 .h5 {
+    .features .list_features .description {
       font-family: "Source Sans Pro Regular";
       font-size: 18px;
       color: #999999;
       width: 250px; }
 
-.three {
+.about {
   padding-top: 66px;
   padding-bottom: 19px; }
-  .three .h6 {
+  .about .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 53px; }
-  .three h3 {
+  .about h3 {
     font-family: "Source Sans Pro Bolt";
     font-size: 36px;
     color: #1a1a1a; }
-  .three h3:after {
+  .about h3:after {
     display: block;
     position: relative;
     width: 42px;
@@ -926,62 +932,62 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .three h3:before {
+  .about h3:before {
     z-index: 2;
     display: block;
     position: relative;
     top: 69px;
     left: 20px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: white;
     content: ""; }
-  .three .h5 {
+  .about .description {
     font-family: "Source Sans Pro Regular";
     font-size: 18px;
     color: #999999;
     margin-top: 50px;
     margin-bottom: 35px; }
-  .three ul {
+  .about ul {
     list-style: none;
     padding-left: 38px;
     font-family: "Source Sans Pro Semibold";
     font-size: 18px;
     color: #1a1a1a; }
-    .three ul li:after {
+    .about ul li:after {
       position: absolute;
       font-weight: 900;
       font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Free'; }
-    .three ul li:first-of-type:after {
+    .about ul li:first-of-type:after {
       content: "\f091";
       color: #008ed6;
       left: 15px; }
-    .three ul li:nth-of-type(2):after {
+    .about ul li:nth-of-type(2):after {
       content: "\f545";
       color: #008ed6;
       left: 15px; }
-    .three ul li:nth-of-type(3):after {
+    .about ul li:nth-of-type(3):after {
       content: "\f0e7";
       color: #008ed6;
       left: 15px; }
-    .three ul li:nth-of-type(4):after {
+    .about ul li:nth-of-type(4):after {
       content: "\f3fd";
       color: #008ed6;
       left: 15px; }
 
-.four {
+.about_second {
   background: #f2f2f2; }
-  .four .h6 {
+  .about_second .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 115px; }
-  .four h3 {
+  .about_second h3 {
     font-family: "Source Sans Pro Bolt";
     font-size: 36px;
     color: #1a1a1a; }
-  .four h3:after {
+  .about_second h3:after {
     display: block;
     position: relative;
     width: 42px;
@@ -989,40 +995,40 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .four h3:before {
+  .about_second h3:before {
     z-index: 2;
     display: block;
     position: relative;
     top: 69px;
     left: 20px;
     width: 2px;
-    height: 2px;
-    background-color: white;
+    height: 3px;
+    background-color: #f2f2f2;
     content: ""; }
-  .four .h5 {
+  .about_second .description {
     font-family: "Source Sans Pro Regular";
     font-size: 18px;
     color: #999999;
     margin-top: 50px;
     margin-bottom: 35px; }
 
-.five {
+.testimonials {
   background: url("../images/background_carousel.png") no-repeat center center fixed;
   background-size: cover;
   position: relative;
   width: 100%;
   height: 640px; }
-  .five .h6 {
+  .testimonials .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 63px; }
-  .five h2 {
+  .testimonials h2 {
     font-family: "Source Sans Pro Semibold";
     font-size: 36px;
     color: #ffffff; }
-  .five h2:after {
+  .testimonials h2:after {
     display: block;
     position: relative;
     width: 42px;
@@ -1031,84 +1037,85 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .five h2:before {
+  .testimonials h2:before {
     z-index: 2;
     display: block;
     position: relative;
     top: 69px;
     left: 560px;
     width: 2px;
-    height: 2px;
+    height: 3px;
     background-color: black;
     content: ""; }
-  .five .owl-carousel {
+  .testimonials .owl-carousel {
     margin-top: 100px; }
-    .five .owl-carousel img {
+    .testimonials .owl-carousel img {
       margin-top: 28px;
       width: 59px;
       height: 59px;
       border-radius: 50%;
       overflow: hidden; }
-    .five .owl-carousel h3 {
+    .testimonials .owl-carousel h3 {
       max-width: 570px;
       font-family: "Source Sans Pro Italic";
       font-size: 24px;
       color: #ffffff; }
-    .five .owl-carousel .h6 {
+    .testimonials .owl-carousel .subtitle {
       font-family: "Source Sans Pro Regular";
       font-size: 16px;
       color: #ffffff;
       text-transform: none;
       margin-top: 36px; }
-    .five .owl-carousel .h5 {
+    .testimonials .owl-carousel .description {
       font-family: "Source Sans Pro Bolt";
       font-size: 14px;
       text-transform: uppercase;
       color: #ffffff; }
-  .five .owl-theme .owl-dots .owl-dot span {
+  .testimonials .owl-theme .owl-dots .owl-dot span {
     background: 0;
     border: solid 1px grey;
     border-radius: 50%;
     height: 8px;
     width: 8px;
     margin: 11px; }
-  .five .owl-theme .owl-dots .owl-dot.active span, .five .owl-theme .owl-dots .owl-dot:hover span {
+  .testimonials .owl-theme .owl-dots .owl-dot.active span, .testimonials .owl-theme .owl-dots .owl-dot:hover span {
     background: white;
     height: 14px;
     width: 14px;
     position: relative;
     top: 3px; }
-  .five .owl-theme .owl-nav {
+  .testimonials .owl-theme .owl-nav {
     margin-top: 100px; }
 
-.six {
+.get_theme {
   background: black;
   padding: 60px 0; }
-  .six h3 {
+  .get_theme h3 {
     font-family: "Source Sans Pro Semibold";
     font-size: 36px;
     color: #ffffff; }
-  .six span {
+  .get_theme span {
     font-family: "Source Sans Pro Light";
     font-size: 36px;
     color: #999999; }
-  .six button {
+  .get_theme button {
     font-size: 14px;
     width: 160px;
     height: 50px;
-    color: #ffffff; }
+    color: #ffffff;
+    border-color: #6c757d; }
 
-.seven .h6 {
+.pricing .subtitle {
   font-family: "Source Sans Pro Bolt";
   font-size: 14px;
   color: #008ed6;
   text-transform: uppercase;
   margin-top: 63px; }
-.seven h2 {
+.pricing h2 {
   font-family: "Source Sans Pro Semibold";
   font-size: 36px;
   color: #1a1a1a; }
-.seven h2:after {
+.pricing h2:after {
   display: block;
   position: relative;
   width: 42px;
@@ -1117,7 +1124,7 @@ header .nav-link:focus:before {
   height: 2px;
   background-color: #008ed6;
   content: ""; }
-.seven h2:before {
+.pricing h2:before {
   z-index: 2;
   display: block;
   position: relative;
@@ -1127,72 +1134,72 @@ header .nav-link:focus:before {
   height: 4px;
   background-color: white;
   content: ""; }
-.seven .card-deck {
+.pricing .card-deck {
   margin: 101px 0 60px; }
-  .seven .card-deck .card-header {
+  .pricing .card-deck .card-header {
     background-color: rgba(0, 0, 0, 0); }
-  .seven .card-deck h4 {
+  .pricing .card-deck h4 {
     font-size: 24px;
     font-family: "Source Sans Pro Bolt";
     text-transform: uppercase; }
-  .seven .card-deck .price {
+  .pricing .card-deck .price {
     border-bottom: solid 1px #e0e0e0;
     padding-top: 20px; }
-  .seven .card-deck .card-title {
+  .pricing .card-deck .card-title {
     font-size: 60px;
     font-family: "Source Sans Pro Semibold";
     margin-bottom: 0; }
-  .seven .card-deck .card-title:before {
+  .pricing .card-deck .card-title:before {
     content: "$";
     font-size: 28px;
     position: relative;
     bottom: 20px; }
-  .seven .card-deck p {
+  .pricing .card-deck p {
     font-size: 18px;
     font-family: "Source Sans Pro Regular";
     color: #999999; }
-  .seven .card-deck .card-body {
+  .pricing .card-deck .card-body {
     padding: 0 0 28px; }
-    .seven .card-deck .card-body ul {
+    .pricing .card-deck .card-body ul {
       margin: 20px; }
-      .seven .card-deck .card-body ul li {
+      .pricing .card-deck .card-body ul li {
         font-size: 18px;
         font-family: "Source Sans Pro Regular";
         color: #999999; }
-        .seven .card-deck .card-body ul li span {
+        .pricing .card-deck .card-body ul li span {
           color: #008ed6; }
-    .seven .card-deck .card-body button {
+    .pricing .card-deck .card-body button {
       width: 160px;
       height: 50px;
       font-size: 14px;
       font-family: "Source Sans Pro Bolt"; }
-    .seven .card-deck .card-body .btn-outline-primary {
+    .pricing .card-deck .card-body .btn-outline-primary {
       border-color: #e0e0e0; }
-.seven .card:hover .price {
+.pricing .card:hover .price {
   background-color: #008ed6;
   color: #ffffff; }
-.seven .card:hover .card-header {
+.pricing .card:hover .card-header {
   color: #008ed6; }
-.seven .card:hover p {
+.pricing .card:hover p {
   color: #ffffff; }
-.seven .card:hover button {
+.pricing .card:hover button {
   color: #ffffff;
   background-color: #008ed6;
   border: none; }
 
-.eight {
+.contact_us {
   background-color: #ededed; }
-  .eight .h6 {
+  .contact_us .subtitle {
     font-family: "Source Sans Pro Bolt";
     font-size: 14px;
     color: #008ed6;
     text-transform: uppercase;
     margin-top: 63px; }
-  .eight h2 {
+  .contact_us h2 {
     font-family: "Source Sans Pro Semibold";
     font-size: 36px;
     color: #1a1a1a; }
-  .eight h2:after {
+  .contact_us h2:after {
     display: block;
     position: relative;
     width: 42px;
@@ -1201,7 +1208,7 @@ header .nav-link:focus:before {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .eight h2:before {
+  .contact_us h2:before {
     z-index: 2;
     display: block;
     position: relative;
@@ -1211,45 +1218,45 @@ header .nav-link:focus:before {
     height: 4px;
     background-color: #ededed;
     content: ""; }
-  .eight i {
+  .contact_us i {
     margin-top: 95px;
     font-size: 35px;
     color: #008ed6; }
-  .eight .h5 {
+  .contact_us .description {
     margin-top: 30px;
     margin-bottom: 6px;
     font-size: 18px;
     font-family: "Source Sans Pro Regular";
     color: #999999;
     line-height: 26px; }
-  .eight .contact {
+  .contact_us .contact {
     position: relative;
     top: 64px;
     z-index: 2; }
-    .eight .contact .bg_form {
+    .contact_us .contact .bg_form {
       background-color: black;
       padding-top: 60px;
       padding-bottom: 40px; }
-      .eight .contact .bg_form button {
+      .contact_us .contact .bg_form button {
         width: 160px;
         height: 50px;
         font-size: 14px;
         font-family: "Source Sans Pro Bolt";
         color: #ffffff;
         background-color: #008ed6; }
-      .eight .contact .bg_form .form-group {
+      .contact_us .contact .bg_form .form-group {
         margin-bottom: 20px; }
-        .eight .contact .bg_form .form-group input {
+        .contact_us .contact .bg_form .form-group input {
           height: 50px;
           background-color: black;
           border-color: #444348; }
-        .eight .contact .bg_form .form-group textarea {
+        .contact_us .contact .bg_form .form-group textarea {
           resize: none;
           height: 188px;
           background-color: black;
           border-color: #444348; }
 
-.nine {
+.map {
   height: 370px; }
 
 @font-face {
