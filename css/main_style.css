@@ -1309,10 +1309,10 @@ footer {
     font-size: 20px; }
 
 @media screen and (max-width: 1024px) {
-  .one img {
+  .home img {
     margin-top: 90px; }
 
-  .two h3:after {
+  .features h3:after {
     display: block;
     position: relative;
     left: 48%;
@@ -1321,7 +1321,7 @@ footer {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .two h3:before {
+  .features h3:before {
     z-index: 2;
     display: block;
     position: relative;
@@ -1331,10 +1331,10 @@ footer {
     height: 2px;
     background-color: white;
     content: ""; }
-  .two .col-lg-3 .h5 {
+  .features .col-lg-3 .description {
     width: 220px; }
 
-  .five h2:after {
+  .testimonials h2:after {
     display: block;
     position: relative;
     left: 47.5%;
@@ -1343,7 +1343,7 @@ footer {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .five h2:before {
+  .testimonials h2:before {
     z-index: 2;
     display: block;
     position: relative;
@@ -1353,8 +1353,10 @@ footer {
     height: 2px;
     background-color: black;
     content: ""; }
+  .testimonials .owl-theme .owl-dots, .testimonials .owl-theme .owl-nav {
+    margin-top: 40px; }
 
-  .seven h2:after {
+  .pricing h2:after {
     display: block;
     position: relative;
     left: 47.5%;
@@ -1363,7 +1365,7 @@ footer {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .seven h2:before {
+  .pricing h2:before {
     z-index: 2;
     display: block;
     position: relative;
@@ -1374,7 +1376,7 @@ footer {
     background-color: white;
     content: ""; }
 
-  .eight h2:after {
+  .contact_us h2:after {
     display: block;
     position: relative;
     left: 47.5%;
@@ -1383,7 +1385,7 @@ footer {
     height: 2px;
     background-color: #008ed6;
     content: ""; }
-  .eight h2:before {
+  .contact_us h2:before {
     z-index: 2;
     display: block;
     position: relative;
@@ -1394,206 +1396,216 @@ footer {
     background-color: #ededed;
     content: ""; } }
 @media screen and (max-width: 768px) {
-  .one .col-lg-5 {
+  .home .col-lg-5 {
     display: none; }
-  .one .col-lg-6 {
+  .home .col-lg-6 {
     text-align: center; }
 
-  .two .col-lg-12 {
+  .features .col-lg-12 {
     margin-top: 100px; }
-  .two h3:after {
+  .features h3:after {
     left: 48%;
     top: 30px; }
-  .two h3:before {
+  .features h3:before {
     left: 50.75%;
     top: 75px; }
-  .two .col-lg-3 .h5 {
+  .features .col-lg-3 .description {
     width: 220px;
     margin-left: 60px; }
 
-  .five h2:after {
+  .testimonials h2:after {
     left: 46.5%;
     top: 30px; }
-  .five h2:before {
+  .testimonials h2:before {
     left: 49.5%;
     top: 75px; }
-  .five .owl-carousel {
+  .testimonials .owl-carousel {
     text-align: center; }
-  .five h3 {
+  .testimonials h3 {
     margin-left: 8%; }
-  .five img {
+  .testimonials img {
     margin-left: 46%; }
-  .five .owl-theme .owl-dots, .five .owl-theme .owl-nav {
-    margin-top: 30px; }
+  .testimonials .owl-theme .owl-dots, .testimonials .owl-theme .owl-nav {
+    margin-top: 10px; }
 
-  .seven h2 {
+  .pricing h2 {
     margin-bottom: 60px; }
-  .seven h2:after {
+  .pricing h2:after {
     left: 47%;
     top: 30px; }
-  .seven h2:before {
+  .pricing h2:before {
     left: 49.65%;
     top: 75px; }
-  .seven .card-deck {
+  .pricing .card-deck {
     margin-top: 0;
     margin-bottom: 30px; }
 
-  .eight h2:after {
+  .contact_us h2:after {
     left: 47.5%;
     top: 30px; }
-  .eight h2:before {
+  .contact_us h2:before {
     left: 50.25%;
     top: 75px; } }
 @media screen and (max-width: 414px) {
-  .one .col-lg-5 {
+  .home .col-lg-5 {
     display: none; }
-  .one .col-lg-6 {
+  .home .col-lg-6 {
     text-align: left; }
-    .one .col-lg-6 .h6 {
+    .home .col-lg-6 .subtitle {
       margin-top: 0; }
-    .one .col-lg-6 button {
+    .home .col-lg-6 button {
       margin-right: 0;
       margin-top: 30px; }
-    .one .col-lg-6 button:last-of-type {
+    .home .col-lg-6 button:last-of-type {
       float: right; }
 
-  .two .col-lg-12 {
+  .features .col-lg-12 {
     margin-top: 50px; }
-  .two h3:after {
+  .features h3:after {
     left: 43.5%;
     top: 20px; }
-  .two h3:before {
+  .features h3:before {
     left: 49%;
     top: 65px; }
-  .two .col-lg-3 {
+  .features .col-lg-3 {
     margin-top: 30px; }
-    .two .col-lg-3 .h5 {
+    .features .col-lg-3 .description {
       width: 220px;
       margin-left: 80px; }
 
-  .three .h5 {
+  .about .description {
     width: 300px; }
-  .three .h6 {
+  .about .subtitle {
     margin-top: 30px; }
-  .three h3:after {
+  .about h3:after {
     top: 24px; }
-  .three h3:before {
+  .about h3:before {
     top: 112px;
     left: 17px; }
 
-  .four .col-lg-5 {
+  .about_second .col-lg-5 {
     margin-right: 15px;
     margin-left: 15px; }
-    .four .col-lg-5 .h5 {
+    .about_second .col-lg-5 .description {
       width: 300px; }
-    .four .col-lg-5 .h6 {
+    .about_second .col-lg-5 .subtitle {
       margin-top: 30px; }
-    .four .col-lg-5 h3:after {
+    .about_second .col-lg-5 h3:after {
       top: 24px; }
-    .four .col-lg-5 h3:before {
+    .about_second .col-lg-5 h3:before {
       top: 69px;
       left: 20px; }
 
-  .five h2:after {
+  .testimonials h2:after {
     left: 44%;
     top: 30px; }
-  .five h2:before {
+  .testimonials h2:before {
     left: 49.5%;
     top: 75px; }
-  .five .owl-carousel {
+  .testimonials .owl-carousel {
     text-align: center; }
-  .five h3 {
+  .testimonials h3 {
     margin-left: 1%; }
-  .five img {
+  .testimonials img {
     margin-left: 41%; }
-  .five .owl-theme .owl-dots, .five .owl-theme .owl-nav {
-    margin-top: 0; }
+  .testimonials .owl-theme .owl-dots, .testimonials .owl-theme .owl-nav {
+    margin-top: -15px; }
 
-  .seven h2 {
+  .get_theme {
+    padding: 30px 0; }
+
+  .pricing h2 {
     margin-bottom: 60px; }
-  .seven h2:after {
+  .pricing h2:after {
     left: 44.5%;
     top: 30px; }
-  .seven h2:before {
+  .pricing h2:before {
     left: 49.65%;
     top: 75px; }
-  .seven .card-deck {
+  .pricing .card-deck {
     margin: 0 15px 30px; }
 
-  .eight h2:after {
+  .contact_us h2:after {
     left: 44.5%;
     top: 30px; }
-  .eight h2:before {
+  .contact_us h2:before {
     left: 49.5%;
     top: 75px; }
-  .eight i {
+  .contact_us i {
     margin-top: 40px; }
-  .eight .h5 {
+  .contact_us .description {
     margin-top: 15px; }
-  .eight .col-xl-8 {
+  .contact_us .col-xl-8 {
     padding: 0; }
-  .eight .bg_form {
+  .contact_us .bg_form {
     padding-left: 15px;
     padding-right: 15px; } }
 @media screen and (max-width: 375px) {
-  .two h3:after {
+  .home .description {
+    margin-bottom: 0; }
+
+  .features h3:after {
     left: 43.5%;
     top: 20px; }
-  .two h3:before {
+  .features h3:before {
     left: 49%;
     top: 108px; }
-  .two .col-lg-3 .h5 {
+  .features .col-lg-3 .description {
     width: 220px;
     margin-left: 60px; }
+  .features .col-lg-12 {
+    margin: 0; }
 
-  .four .col-lg-5 h3:after {
+  .about_second .col-lg-5 h3:after {
     top: 24px; }
-  .four .col-lg-5 h3:before {
+  .about_second .col-lg-5 h3:before {
     top: 112px;
     left: 20px; } }
 @media screen and (max-width: 320px) {
-  .one button {
+  .home button {
     width: 130px;
     padding: 3px 6px; }
+  .home .description {
+    margin-bottom: 0; }
 
-  .two {
+  .features {
     padding-bottom: 30px; }
-    .two .col-lg-12 {
+    .features .col-lg-12 {
       margin-top: 0; }
-    .two h3:after {
+    .features h3:after {
       left: 42%;
       top: 20px; }
-    .two h3:before {
+    .features h3:before {
       left: 49%;
       top: 108px; }
-    .two .col-lg-3 .h5 {
+    .features .col-lg-3 .description {
       margin-left: 35px; }
 
-  .four .col-lg-5 h3:after {
+  .about_second .col-lg-5 h3:after {
     top: 24px; }
-  .four .col-lg-5 h3:before {
+  .about_second .col-lg-5 h3:before {
     top: 112px;
     left: 20px; }
 
-  .five h2:after {
+  .testimonials h2:after {
     left: 43%;
     top: 30px; }
-  .five .h6 {
+  .testimonials .subtitle {
     margin-top: 15px; }
-  .five img {
+  .testimonials img {
     margin-left: 39%; }
 
-  .six button {
-    width: 130px;
+  .get_theme button {
+    width: 140px;
     padding: 3px 6px; }
 
-  .seven h2 {
+  .pricing h2 {
     margin-bottom: 60px; }
-  .seven h2:after {
+  .pricing h2:after {
     left: 43%;
     top: 30px; }
 
-  .eight h2:after {
+  .contact_us h2:after {
     left: 43%; }
 
   footer .col-xl-12 {
